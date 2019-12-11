@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker:400,600&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Blinker', sans-serif;
+  color: #ff7c25;
+  margin: 0;
+  padding: 0;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/*--- Navigation -----*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff7c25;
+}
+
+
+/*-- landing page --*/
+.home-inner {
+  background-image: url(img/landingpagephoto.png);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  color: rgb(240, 240, 240);
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .8rem;
+}
+
+.caption h3 {
+  font-size: 1.8rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: .8rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  padding: .6rem 1.3rem;
+  font-size: 1.3rem;
+}
+
+/*--- About section --*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 4rem;
+}
+
+.narrow h1{
+  font-size: 2.4rem;
+}
+
+
+@media (min-width: 480px){
+/*-- landing page --*/
+.home-inner {
+  background-image: url(img/landingpagephoto.png);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  color: rgb(240, 240, 240);
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .8rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: .8rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  padding: .6rem 1.3rem;
+  font-size: 1.3rem;
+}
+
+/*--- About section --*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 4rem;
+}
+
+.narrow h1{
+  font-size: 2.4rem;
+}
+
+}
+
+/*-- products section --*/
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 4rem 8rem 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+.heading-underline {
+  width: 8rem;
+  height: .2rem;
+  background-color: #ff7c25;
+  margin: 1.3rem auto 2rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+
+}
+
+@media (min-width: 480px){
+.lead {
+  font-size: 1.6rem;
+  padding-left: 15%; padding-right: 15%;
+}
+}
+#about {
+  padding-bottom: 4rem;
+}
+
+#products {
+background-color: #EFF0F0;
+padding-bottom: 4rem;
+}
+
+#location {
+  padding-top: 100px;
+}
+
+
+#services {
+background-color: white;
+padding-top: 2rem;
+padding-bottom: 4rem;
+}
+
+#contacts {
+  padding-top: 2rem;
+}
+
+.smalltext {
+  font-size: 1.5rem;
+
+}
+
+@media (min-width: 480px){
+.smalltext {
+  font-size: 1.6rem;
+  padding-left: 15%; padding-right: 15%;
+
+}
+}
+
+p {
+  font-size: 1.6rem;
+  text-align:center;
+}
+
+/*-- location section --*/
+.fixed {
+  background-image: url(img/location.jpg);
+  z-index: -1;
+
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.map-responsive iframe{
+    right:0;
+    top:0;
+    height:800px;
+    width:500px;
+    position:center;
+}
+
+@media (min-width: 600px){
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.map-responsive iframe{
+    right:0;
+    top:0;
+    height:50vh;
+    width:40%;
+    position:center;
+}
+}
+
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  height: 700px;
+
+}
+.fixed-background h3 {
+
+}
+.fixed-background p {
+
+}
+
+/*-- service section --*/
+
+.service img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.footerimage{
+  width:400px;
+  length: 800px;
+  border:3px;
+  border-style:solid;
+  border-color:#3A3938;
+
+  padding: 1em;
+  background: #3A3938;
+
+}
+
+
+
+
+@media (max-width: 480px){
+.footerimage{
+  width:300px;
+  length: 800px;
+  border:3px;
+  border-style:solid;
+  border-color:#3A3938;
+  padding: 1em;
+  background: #3A3938;
+}
+}
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
