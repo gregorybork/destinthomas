@@ -265,8 +265,32 @@ p {
 /*-- service section --*/
 
 .service img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+.service img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+}
+
+@media (min-width: 820px) {
+.service img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+}
+@media (min-width: 1230px) {
+.service img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
 }
 
 .footerimage{
